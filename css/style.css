@@ -1,0 +1,79 @@
+header {
+	background: linear-gradient(-45deg, #ee7752, #d4ba25, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    width: auto;
+    height: auto;
+}
+
+footer {
+	background: linear-gradient(-45deg, #ee7752, #d4ba25, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    width: auto;
+    height: auto;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src:
+    url("leaguespartan-bold-webfont") format("woff"),
+    url("leaguespartan-bold.otf") format("opentype"),
+}
+
+header h1{
+    color: white;
+    font-family: 'League Spartan', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+
+body h2{
+    color: #313131;
+    font-family: 'League Spartan', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #313131;
+}
+
+.font-weight-light {
+    color: white;
+}
+
+a:hover {
+    color: none;
+}
+
+.presentationEntreprise {
+    margin-bottom: 25px;
+}
